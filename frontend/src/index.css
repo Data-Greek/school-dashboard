@@ -1,0 +1,21 @@
+/* Espacement du Footer */
+main {
+  min-height: 90vh;
+}
+
+/* Couleur d'arrière-plan du footer */
+.background-footer {
+  background-color: #1f51ff;
+}
+
+/* Centrer les éléments */
+.center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer padding */
+.footer-padding {
+  padding-top: 50px;
+}
