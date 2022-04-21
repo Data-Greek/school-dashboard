@@ -40,7 +40,7 @@ jobs:
       - name: Test de contenarisation (Docker)
         working-directory: ./backend
         run: |
-          docker build -t app-test:v1 .docker build -t app-test:v1 .
+          docker build -t app-test:v1 .
       - name: Deployment on Heroku
         env:
           HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
