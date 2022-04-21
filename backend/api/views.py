@@ -33,8 +33,8 @@ def loading_csv(request):
     
     # Pandas 
     import pandas as pd
-    df = pd.read_csv(file, delim_whitespace=True)
-    print(df)
+    # df = pd.read_csv(file, delim_whitespace=True)
+    # print(df)
 
     # Préparation des données pour l'envoi vers la BDD
     # for row in file:
