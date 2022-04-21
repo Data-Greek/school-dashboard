@@ -12,7 +12,7 @@ function Header() {
         variant="dark"
       >
         <Container>
-          <Navbar.Brand href="#">HarvestSchool</Navbar.Brand>
+          <Navbar.Brand href="#"> HarvestSchool 🎓</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse className="justify-content-end"></Navbar.Collapse>
           <Nav>

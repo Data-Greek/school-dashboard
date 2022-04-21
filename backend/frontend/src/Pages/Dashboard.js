@@ -16,7 +16,7 @@ function Dashboard() {
       <Row>
         <Col></Col>
         <Col>
-          <h3 className="text-center">Accompagnement des élèves 🎓</h3>
+          <h3 className="text-center">Accompagnement des élèves </h3>
         </Col>
         <Col></Col>
       </Row>
