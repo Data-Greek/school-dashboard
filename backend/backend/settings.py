@@ -45,6 +45,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -59,7 +60,7 @@ REST_FRAMEWORK = {
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'frontend/build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,7 +124,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL = 'csv/'
 
-STATICFILES_DIR = [BASE_DIR / 'static']
+STATICFILES_DIRS = [BASE_DIR / 'frontend/build/static']
 
 MEDIA_ROOT = 'static/csv'
 

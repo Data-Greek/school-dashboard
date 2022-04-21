@@ -86,12 +86,19 @@ function Dashboard() {
                   <Table striped bordered hover>
                     <thead>
                       <tr>
-                        <th className="text-center">#</th>
-                        <th className="text-center">Produit A</th>
-                        <th className="text-center">Produit B</th>
-                        <th className="text-center">Support</th>
-                        <th className="text-center">Confidence</th>
-                        <th className="text-center">lift</th>
+                        <th className="text-center">id</th>
+                        <th className="text-center">Sexe</th>
+                        <th className="text-center">Age</th>
+                        <th className="text-center">Moy. Générale</th>
+                        <th className="text-center">Absentéisme</th>
+                        <th className="text-center">Rapport à l'alcool</th>
+                        <th className="text-center">État de santé</th>
+                        <th className="text-center">Durée d'étude</th>
+                        <th className="text-center">Lieu de résidence</th>
+                        <th className="text-center">Niv. d'étude de la mère</th>
+                        <th className="text-center">Niv. d'étude du père</th>
+                        <th className="text-center">Bien être à la maison</th>
+                        <th className="text-center">Statut de l'élève</th>
                       </tr>
                     </thead>
                     <tbody>
