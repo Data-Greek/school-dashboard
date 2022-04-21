@@ -83,7 +83,7 @@ function Dashboard() {
                     </Col>
                   </Row>
                   {/* TABLEAU DE L'ANALYSE */}
-                  <Table striped bordered hover>
+                  <Table striped bordered hover responsive>
                     <thead>
                       <tr>
                         <th className="text-center">id</th>
@@ -93,7 +93,7 @@ function Dashboard() {
                         <th className="text-center">Absentéisme</th>
                         <th className="text-center">Rapport à l'alcool</th>
                         <th className="text-center">État de santé</th>
-                        <th className="text-center">Durée d'étude</th>
+                        <th className="text-center">Temps de travail</th>
                         <th className="text-center">Lieu de résidence</th>
                         <th className="text-center">Niv. d'étude de la mère</th>
                         <th className="text-center">Niv. d'étude du père</th>
