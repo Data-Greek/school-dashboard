@@ -29,44 +29,41 @@ def loading_csv(request):
     fs = FileSystemStorage()
     path = fs.save(file.name, file)
     path = fs.url(path)
-    filePath = '.' + path
+    filePath = './static' + path
     
-    # Pandas 
+    # Lecture du fichier CSV
     import pandas as pd
-    # df = pd.read_csv(file, delim_whitespace=True)
-    # print(df)
+    data = pd.read_csv(filePath, sep=',')
 
-    # Préparation des données pour l'envoi vers la BDD
-    # for row in file:
-    #     print(row)
+  # Préparation des données pour l'envoi vers la BDD
+    data_bdd = []
 
-    # data_bdd = []
-    
-    # for rows in enumerate(file):
+    for rows in range(len(data)):
+
+        data_bdd.append(
+            
+            Student(
+        # Méthode "iloc" [row] [columns]
+        school = data.iloc[rows][0],
+        sex = data.iloc[rows][1],
+        age = data.iloc[rows][2],
+        address = data.iloc[rows][3],
+        aggregated_notation = data.iloc[rows][4],
+        studytime = data.iloc[rows][5],
+        absences = data.iloc[rows][6],
+        Dalc = data.iloc[rows][7],
+        Medu = data.iloc[rows][8],
+        Fedu = data.iloc[rows][9],
+        health = data.iloc[rows][10],
+        famrel = data.iloc[rows][11],
+        famsup = data.iloc[rows][12],
         
-    #     data_bdd.append(   
-                    
-    #         Student(
-                
-    #     # Méthode "iloc" [row] [columns]
-    #     school = file.iloc[rows][0],
-    #     sex = file.iloc[rows][1],
-    #     age = file.iloc[rows][2],
-    #     address = file.iloc[rows][3],
-    #     aggregated_notation = file.iloc[rows][4],
-    #     studytime = file.iloc[rows][5],
-    #     absences = file.iloc[rows][6],
-    #     Dalc = file.iloc[rows][7],
-    #     Medu = file.iloc[rows][8],
-    #     Fedu = file.iloc[rows][9],
-    #     health = file.iloc[rows][10],
-    #     famrel = file.iloc[rows][11],
-        
-    #     ))
+        ))
 
-    # # Sauvegarde des données dans la BDD
-    # Student.objects.bulk_create(data_bdd)
+    print(data.iloc[rows][0])
+    # Sauvegarde des données dans la BDD
+    Student.objects.bulk_create(data_bdd)
 
-    return Response(filePath)
+    return Response(data)
     
  

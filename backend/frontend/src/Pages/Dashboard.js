@@ -8,7 +8,14 @@ import {
   Table,
   Alert,
   Form,
+  Button,
 } from "react-bootstrap";
+import BarChart from "../Charts/BarChart";
+import LineChart from "../Charts/LineChart";
+import PieChart from "../Charts/PieChart";
+import PieChartTwo from "../Charts/PieChartTwo";
+import PieChartThree from "../Charts/PieChartThree";
+import BarChartTwo from "../Charts/BarChartTwo";
 
 function Dashboard() {
   return (
@@ -16,7 +23,7 @@ function Dashboard() {
       <Row>
         <Col></Col>
         <Col>
-          <h3 className="text-center">Accompagnement des élèves </h3>
+          <h3 className="text-center py-5">Accompagnement des élèves </h3>
         </Col>
         <Col></Col>
       </Row>
@@ -24,7 +31,7 @@ function Dashboard() {
         <Col></Col>
         <Col md={12}>
           <Tabs
-            defaultActiveKey="Tableau"
+            defaultActiveKey="KPI"
             id="uncontrolled-tab-example"
             className="mb-3"
           >
@@ -123,13 +130,12 @@ function Dashboard() {
             <Tab eventKey="KPI" title="Tendance générale">
               {/* PREMIERE RANGÉE */}
               <Row className="py-3">
-                <h6 style={{ color: "black" }}>Le total des deux écoles</h6>
                 <Col>
                   <Alert className="text-center" variant="success">
                     <h6>
                       <strong>Nombre d'élèves</strong>
                     </h6>
-                    <h1>649</h1>
+                    <h1>423</h1>
                   </Alert>
                 </Col>
                 <Col>
@@ -137,73 +143,43 @@ function Dashboard() {
                     <h6>
                       <strong>Moyenne générale</strong>
                     </h6>
-                    <h1>11.80</h1>
+                    <h1>12.23</h1>
                   </Alert>
+                  <p className="text-center">
+                    8.68 de moyenne pour les élèves en difficultés
+                  </p>
                 </Col>
                 <Col>
                   <Alert className="text-center" variant="warning">
                     <h6>
                       <strong>Élèves en difficulté</strong>
                     </h6>
-                    <h1>256</h1>
+                    <h1>62</h1>
                   </Alert>
                 </Col>
               </Row>{" "}
               {/* DEUXIEME RANGÉE */}
               <Row className="py-3">
-                <h6 style={{ color: "black" }}>Gabriel Pereira (GP)</h6>
                 <Col>
-                  <Alert className="text-center" variant="success">
-                    <h6>
-                      <strong>Nombre d'élèves</strong>
-                    </h6>
-                    <h1>300</h1>
-                  </Alert>
+                  <BarChart />
                 </Col>
                 <Col>
-                  <Alert className="text-center" variant="danger">
-                    <h6>
-                      <strong>Moyenne générale</strong>
-                    </h6>
-                    <h1>10.63</h1>
-                  </Alert>
-                </Col>
-                <Col>
-                  <Alert className="text-center" variant="warning">
-                    <h6>
-                      <strong>Élèves en difficulté</strong>
-                    </h6>
-                    <h1>156</h1>
-                  </Alert>
+                  <BarChartTwo />
                 </Col>
               </Row>
               {/* TROISIEME RANGÉE */}
               <Row className="py-3">
-                <h6 style={{ color: "black" }}>Mousinho da Silveira (MS)</h6>
-                <Col>
-                  <Alert className="text-center" variant="success">
-                    <h6>
-                      <strong>Nombre d'élèves</strong>
-                    </h6>
-                    <h1>349</h1>
-                  </Alert>
-                </Col>
-                <Col>
-                  <Alert className="text-center" variant="danger">
-                    <h6>
-                      <strong>Moyenne générale</strong>
-                    </h6>
-                    <h1>12.03</h1>
-                  </Alert>
-                </Col>
-                <Col>
-                  <Alert className="text-center" variant="warning">
-                    <h6>
-                      <strong>Élèves en difficulté</strong>
-                    </h6>
-                    <h1>100</h1>
-                  </Alert>
-                </Col>
+                <Row className="py-3">
+                  <Col md={4}>
+                    <PieChart />
+                  </Col>
+                  <Col md={4}>
+                    <PieChartTwo />
+                  </Col>
+                  <Col md={4}>
+                    <PieChartThree />
+                  </Col>
+                </Row>
               </Row>
             </Tab>
             {/* RECHERCHE PAR ID */}
@@ -227,6 +203,14 @@ function Dashboard() {
                   </Form.Text>
                 </Col>
                 <Col></Col>
+                <Row>
+                  <Col></Col>
+                  <Col></Col>
+                  <Col>
+                    {" "}
+                    <Button className="center-element">Rechercher</Button>
+                  </Col>
+                </Row>
               </Row>
             </Tab>
           </Tabs>
