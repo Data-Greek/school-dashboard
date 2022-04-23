@@ -16,7 +16,7 @@ function Header() {
   // Fonction de déconnexion
   const logoutHandler = () => {
     dispatch(logout());
-    navigate("/login");
+    navigate("/");
   };
 
   return (
@@ -45,7 +45,7 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
           ) : (
-            <LinkContainer to="/connexion">
+            <LinkContainer to="/">
               <Nav.Link eventKey={2}>
                 <i class="fas fa-user "> </i> Se connecter
               </Nav.Link>

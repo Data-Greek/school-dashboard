@@ -29,7 +29,7 @@ function Dashboard() {
 
   // selection du state (données chargées)
   const studentsData = useSelector((state) => state.studentReducers);
-  const { error, loading, students } = studentsData;
+  const { students } = studentsData;
 
   // Chargement des paramètres de connexion
   const userLogin = useSelector((state) => state.userLogin);
@@ -38,10 +38,10 @@ function Dashboard() {
   useEffect(() => {
     dispatch(studentsActions());
     if (!userInfo) {
-      // navigate("/login");
-      console.log("disconnected");
+      // navigate("/");
+      // console.log("disconnected");
     }
-  }, []);
+  }, [dispatch, userInfo, navigate]);
 
   return (
     <Container className="py-5">
