@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { userActions } from "../Redux/Actions/userActions";
 
 function Login({ history }) {
@@ -14,18 +15,13 @@ function Login({ history }) {
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 
+  const navigate = useNavigate();
   // Envoie des informations vers le backend pour authentification
   const submitHandler = (e) => {
-    e.prevent.Default();
+    e.preventDefault();
     dispatch(userActions(username, password));
+    navigate("/");
   };
-
-  // Redirection des utilisateurs en cas de connexion
-  useEffect(() => {
-    // if (userInfo) {
-    //   history.push("/");
-    // }
-  }, []);
 
   return (
     <Container>
@@ -34,11 +30,11 @@ function Login({ history }) {
         <Col sm={6} md={4}>
           <Form className="login-center py-5" onSubmit={submitHandler}>
             <h3 className="text-center py-5">Portail de connexion</h3>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="username">
               <Form.Label>Email</Form.Label>
               <Form.Control
-                type="email"
-                placeholder="Enter email"
+                type="username"
+                placeholder="username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />

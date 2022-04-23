@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import {
   Container,
   Row,
@@ -22,15 +23,24 @@ import PieChartThree from "../Charts/PieChartThree";
 import BarChartTwo from "../Charts/BarChartTwo";
 
 function Dashboard() {
-  // dispatch function
+  // dispatch function + navigate (redirection)
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   // selection du state (données chargées)
   const studentsData = useSelector((state) => state.studentReducers);
   const { error, loading, students } = studentsData;
 
+  // Chargement des paramètres de connexion
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
+
   useEffect(() => {
     dispatch(studentsActions());
+    if (!userInfo) {
+      // navigate("/login");
+      console.log("disconnected");
+    }
   }, []);
 
   return (
@@ -148,8 +158,8 @@ function Dashboard() {
               </Row>
             </Tab>
 
-            {/* TENDANCE GÉNÉRALE */}
-            <Tab eventKey="KPI" title="Tendance générale">
+            {/* TENDANCES GÉNÉRALES */}
+            <Tab eventKey="KPI" title="Tendances générales">
               {/* PREMIERE RANGÉE */}
               <Row className="py-3">
                 <Col>

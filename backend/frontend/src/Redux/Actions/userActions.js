@@ -3,7 +3,7 @@ import {
   USER_LOGIN_REQUEST,
   USER_LOGIN_SUCCESS,
   USER_LOGIN_FAIL,
-  USER_LOGIN_LOGOUT,
+  USER_LOGOUT,
 } from "../Constants/userConstants";
 
 export const userActions = (username, password) => async (dispatch) => {
@@ -19,14 +19,13 @@ export const userActions = (username, password) => async (dispatch) => {
 
     //Envoi des informations vers Django
     const { data } = await axios.post(
-      "http://127.0.0.1:8000/api/users/login",
+      "http://127.0.0.1:8000/api/users/login/",
       { username: username, password: password },
       config
     );
 
-    localStorage.setItem("userInfo", JSON.stringify(data));
-
     dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
+    localStorage.setItem("userInfo", JSON.stringify(data));
   } catch (error) {
     dispatch({
       type: USER_LOGIN_FAIL,
@@ -36,4 +35,9 @@ export const userActions = (username, password) => async (dispatch) => {
           : error.message,
     });
   }
+};
+
+export const logout = () => (dispatch) => {
+  localStorage.removeItem("userInfo");
+  dispatch({ type: USER_LOGOUT });
 };

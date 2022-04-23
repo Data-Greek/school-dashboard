@@ -6,7 +6,7 @@ from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from .serializers import StudentSerializer, UserSerializer, UserSerializerWithToken
 from .models import Student
 
-# JWT module
+# JWT authentification module
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 
