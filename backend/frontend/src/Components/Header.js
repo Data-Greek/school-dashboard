@@ -12,14 +12,11 @@ function Header() {
         variant="dark"
       >
         <Container>
-          <Navbar.Brand href="#"> HarvestSchool 🎓</Navbar.Brand>
+          <Navbar.Brand href="/"> HarvestSchool 🎓</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse className="justify-content-end"></Navbar.Collapse>
           <Nav>
-            {/* <Nav.Link href="#s'abonner">
-              <i class="fas fa-user-plus"></i> {""} S'abonner
-            </Nav.Link> */}
-            <Nav.Link href="#">
+            <Nav.Link href="/login">
               <i class="fas fa-user "> </i> {""}Se connecter
             </Nav.Link>
           </Nav>

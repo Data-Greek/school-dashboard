@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# BDD recensant les élèves et leurs caractériques éducatives
 class Student(models.Model):
     
     # Modalités de réponses

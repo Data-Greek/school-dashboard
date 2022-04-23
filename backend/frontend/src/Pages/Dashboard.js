@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import {
   Container,
   Row,
@@ -10,14 +11,28 @@ import {
   Form,
   Button,
 } from "react-bootstrap";
+
+import { studentsActions } from "../Redux/Actions/studentsActions";
+
+// Charts
 import BarChart from "../Charts/BarChart";
-import LineChart from "../Charts/LineChart";
 import PieChart from "../Charts/PieChart";
 import PieChartTwo from "../Charts/PieChartTwo";
 import PieChartThree from "../Charts/PieChartThree";
 import BarChartTwo from "../Charts/BarChartTwo";
 
 function Dashboard() {
+  // dispatch function
+  const dispatch = useDispatch();
+
+  // selection du state (données chargées)
+  const studentsData = useSelector((state) => state.studentReducers);
+  const { error, loading, students } = studentsData;
+
+  useEffect(() => {
+    dispatch(studentsActions());
+  }, []);
+
   return (
     <Container className="py-5">
       <Row>
@@ -47,43 +62,40 @@ function Dashboard() {
                       <Alert variant="success">
                         <p className="text-center">
                           <strong>
-                            Moyenne générale
+                            Indicateurs socio-démo'
                             <br />
-                            Indicateur n°1
                           </strong>
                         </p>
                       </Alert>
                     </Col>
                     <Col sm={3}>
                       {" "}
-                      <Alert variant="info">
+                      <Alert variant="danger">
                         <p className="text-center">
                           <strong>
-                            Absentéisme
+                            Investissement personnel
                             <br />
-                            Indicateur n°2
                           </strong>
                         </p>
                       </Alert>
                     </Col>
                     <Col sm={3}>
                       {" "}
-                      <Alert variant="success">
+                      <Alert variant="primary">
                         <p className="text-center">
                           <strong>
-                            Temps d'étude <br />
-                            Indicateur n°3
+                            Environnement familial
+                            <br />
                           </strong>
                         </p>
                       </Alert>
                     </Col>
                     <Col sm={3}>
                       {" "}
-                      <Alert variant="success">
+                      <Alert variant="warning">
                         <p className="text-center">
                           <strong>
-                            Santé <br />
-                            Indicateur n°4
+                            État de santé général <br />
                           </strong>
                         </p>
                       </Alert>
@@ -94,31 +106,41 @@ function Dashboard() {
                     <thead>
                       <tr>
                         <th className="text-center">id</th>
+                        <th className="text-center">School</th>
                         <th className="text-center">Sexe</th>
                         <th className="text-center">Age</th>
-                        <th className="text-center">Moy. Générale</th>
-                        <th className="text-center">Absentéisme</th>
-                        <th className="text-center">Rapport à l'alcool</th>
-                        <th className="text-center">État de santé</th>
+                        <th className="text-center">Localité</th>
                         <th className="text-center">Temps de travail</th>
-                        <th className="text-center">Lieu de résidence</th>
+                        <th className="text-center">Nbre d'abscences</th>
+                        <th className="text-center">Rapport à l'alcool</th>
                         <th className="text-center">Niv. d'étude de la mère</th>
                         <th className="text-center">Niv. d'étude du père</th>
+                        <th className="text-center">État de santé</th>
                         <th className="text-center">Bien être à la maison</th>
-                        <th className="text-center">Statut de l'élève</th>
+                        <th className="text-center">Assistance à la maison</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {/* {bdd_data.map((data) => (
+                      {students.map((data) => (
                         <tr key={data.id}>
                           <td className="text-center">{data.id}</td>
-                          <td className="text-center">{data.produit_A}</td>
-                          <td className="text-center">{data.produit_B}</td>
-                          <td className="text-center">{data.support}</td>
-                          <td className="text-center">{data.confidence}</td>
-                          <td className="text-center">{data.lift}</td>
+                          <td className="text-center">{data.school}</td>
+                          <td className="text-center">{data.sex}</td>
+                          <td className="text-center">{data.age}</td>
+                          <td className="text-center">{data.address}</td>
+                          <td className="text-center">{data.studytime}</td>
+                          <td className="text-center">{data.absences}</td>
+                          <td className="text-center">{data.Dalc}</td>
+                          <td className="text-center">{data.Medu}</td>
+                          <td className="text-center">{data.Fedu}</td>
+                          <td className="text-center">{data.health}</td>
+                          <td className="text-center">{data.famrel}</td>
+                          <td className="text-center">{data.famsup}</td>
+                          <td className="text-center">
+                            {data.aggregated_notation}
+                          </td>
                         </tr>
-                      ))} */}
+                      ))}
                     </tbody>
                   </Table>
                 </Col>

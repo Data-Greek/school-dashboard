@@ -1,0 +1,424 @@
+school,sex,age,address,aggregated_notation,studytime,absences,Dalc,Medu,Fedu,health,famrel,famsup
+GP,Feminin,18,Ville,7.33,2 à 5 heures,4,1,bac +3 et plus,bac +3 et plus,3,4,no
+GP,Feminin,17,Ville,10.33,2 à 5 heures,2,1,brevet,brevet,3,5,yes
+GP,Feminin,15,Ville,12.33,2 à 5 heures,6,2,brevet,brevet,3,4,no
+GP,Feminin,15,Ville,14.0,5 à 10 heures,0,1,bac +3 et plus,baccalaureat,5,3,yes
+GP,Feminin,16,Ville,12.33,2 à 5 heures,0,1,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,16,Ville,12.33,2 à 5 heures,6,1,bac +3 et plus,bac / bac+2,5,5,yes
+GP,Masculin,16,Ville,12.67,2 à 5 heures,0,1,baccalaureat,baccalaureat,3,4,no
+GP,Feminin,17,Ville,12.0,2 à 5 heures,2,1,bac +3 et plus,bac +3 et plus,1,4,yes
+GP,Masculin,15,Ville,16.0,2 à 5 heures,0,1,bac / bac+2,baccalaureat,1,4,yes
+GP,Masculin,15,Ville,12.33,2 à 5 heures,0,1,bac / bac+2,bac +3 et plus,5,5,yes
+GP,Feminin,15,Ville,14.0,2 à 5 heures,2,1,bac +3 et plus,bac +3 et plus,2,3,yes
+GP,Feminin,15,Ville,11.67,5 à 10 heures,0,1,baccalaureat,brevet,4,5,yes
+GP,Masculin,15,Ville,12.33,Moins de 2h,0,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Masculin,15,Ville,12.33,2 à 5 heures,0,1,bac +3 et plus,bac / bac+2,3,5,yes
+GP,Masculin,15,Ville,14.33,5 à 10 heures,0,1,baccalaureat,baccalaureat,3,4,yes
+GP,Feminin,16,Ville,17.0,Moins de 2h,6,1,bac +3 et plus,bac +3 et plus,2,4,yes
+GP,Feminin,16,Ville,13.33,5 à 10 heures,10,1,bac +3 et plus,bac +3 et plus,2,3,yes
+GP,Feminin,16,Ville,13.67,2 à 5 heures,2,1,bac / bac+2,bac / bac+2,4,5,yes
+GP,Masculin,17,Ville,7.67,Moins de 2h,2,2,bac / bac+2,baccalaureat,5,5,yes
+GP,Masculin,16,Ville,12.0,Moins de 2h,6,1,bac +3 et plus,bac / bac+2,5,3,no
+GP,Masculin,15,Ville,13.0,2 à 5 heures,0,1,bac +3 et plus,bac / bac+2,1,4,no
+GP,Masculin,15,Ville,11.67,Moins de 2h,0,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Masculin,16,Ville,13.0,2 à 5 heures,0,1,bac +3 et plus,baccalaureat,5,4,no
+GP,Masculin,16,Ville,10.0,2 à 5 heures,2,2,baccalaureat,baccalaureat,5,5,yes
+GP,Feminin,15,Campagne,10.33,5 à 10 heures,2,1,baccalaureat,bac +3 et plus,5,4,yes
+GP,Feminin,16,Ville,11.0,Moins de 2h,6,1,baccalaureat,baccalaureat,5,1,yes
+GP,Masculin,15,Ville,11.67,Moins de 2h,8,1,baccalaureat,baccalaureat,5,4,yes
+GP,Masculin,15,Ville,11.0,Moins de 2h,0,2,bac +3 et plus,baccalaureat,1,2,no
+GP,Masculin,16,Ville,12.33,2 à 5 heures,2,1,bac / bac+2,bac +3 et plus,5,5,yes
+GP,Masculin,16,Ville,11.67,2 à 5 heures,4,5,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Masculin,15,Ville,10.67,2 à 5 heures,0,3,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Masculin,15,Ville,15.0,2 à 5 heures,2,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Masculin,15,Campagne,14.0,2 à 5 heures,0,1,bac +3 et plus,bac / bac+2,5,4,yes
+GP,Masculin,15,Ville,12.33,2 à 5 heures,0,1,bac / bac+2,bac / bac+2,2,5,no
+GP,Masculin,16,Ville,12.0,Moins de 2h,4,1,bac / bac+2,baccalaureat,5,5,yes
+GP,Feminin,15,Ville,11.0,Moins de 2h,4,1,baccalaureat,bac / bac+2,5,3,yes
+GP,Masculin,15,Ville,14.0,5 à 10 heures,0,1,bac +3 et plus,bac / bac+2,4,5,yes
+GP,Masculin,16,Campagne,13.0,5 à 10 heures,4,1,bac +3 et plus,bac +3 et plus,5,2,yes
+GP,Feminin,15,Campagne,11.67,5 à 10 heures,2,1,bac / bac+2,bac +3 et plus,5,4,yes
+GP,Feminin,15,Campagne,13.0,Moins de 2h,8,1,baccalaureat,baccalaureat,2,4,yes
+GP,Feminin,16,Ville,10.67,2 à 5 heures,16,1,baccalaureat,baccalaureat,3,3,yes
+GP,Masculin,15,Ville,10.67,Moins de 2h,8,2,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Masculin,15,Ville,14.67,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Masculin,15,Ville,9.67,Moins de 2h,0,1,baccalaureat,baccalaureat,1,5,yes
+GP,Feminin,16,Ville,10.67,2 à 5 heures,14,2,baccalaureat,baccalaureat,5,4,no
+GP,Feminin,15,Ville,10.67,2 à 5 heures,4,1,bac +3 et plus,bac / bac+2,5,5,yes
+GP,Feminin,16,Ville,12.67,2 à 5 heures,6,1,bac / bac+2,bac / bac+2,3,2,yes
+GP,Masculin,16,Ville,17.0,Plus de 10h,2,1,bac +3 et plus,bac / bac+2,2,4,no
+GP,Masculin,15,Ville,12.0,2 à 5 heures,4,2,bac +3 et plus,baccalaureat,5,4,yes
+GP,Feminin,15,Ville,12.33,2 à 5 heures,2,1,bac +3 et plus,bac +3 et plus,3,4,yes
+GP,Feminin,16,Ville,13.33,2 à 5 heures,0,2,baccalaureat,baccalaureat,4,4,yes
+GP,Feminin,15,Ville,15.33,2 à 5 heures,0,1,bac +3 et plus,baccalaureat,5,4,yes
+GP,Masculin,15,Ville,9.33,Moins de 2h,4,3,bac +3 et plus,baccalaureat,5,5,no
+GP,Feminin,15,Ville,12.33,Moins de 2h,0,2,bac +3 et plus,bac +3 et plus,5,3,yes
+GP,Feminin,15,Ville,12.67,Moins de 2h,0,4,bac / bac+2,bac / bac+2,1,5,no
+GP,Feminin,16,Ville,12.33,2 à 5 heures,2,1,baccalaureat,brevet,2,5,no
+GP,Feminin,15,Ville,14.67,2 à 5 heures,0,1,bac +3 et plus,bac / bac+2,1,4,yes
+GP,Masculin,15,Ville,15.33,2 à 5 heures,8,1,bac +3 et plus,bac +3 et plus,5,3,yes
+GP,Masculin,15,Ville,13.67,2 à 5 heures,0,1,brevet,baccalaureat,5,4,yes
+GP,Feminin,16,Ville,15.67,2 à 5 heures,2,1,bac +3 et plus,baccalaureat,5,4,yes
+GP,Feminin,16,Campagne,16.33,2 à 5 heures,0,2,bac +3 et plus,bac +3 et plus,4,2,yes
+GP,Feminin,16,Ville,12.0,Moins de 2h,0,5,brevet,brevet,5,5,yes
+GP,Feminin,16,Ville,12.0,2 à 5 heures,0,1,brevet,baccalaureat,1,4,no
+GP,Feminin,16,Ville,13.33,5 à 10 heures,0,2,bac +3 et plus,bac / bac+2,4,3,yes
+GP,Feminin,15,Ville,12.33,2 à 5 heures,0,2,bac +3 et plus,bac / bac+2,2,4,no
+GP,Feminin,16,Ville,15.67,2 à 5 heures,2,1,bac +3 et plus,bac / bac+2,1,5,yes
+GP,Masculin,15,Ville,11.67,Plus de 10h,0,5,bac +3 et plus,bac +3 et plus,3,1,yes
+GP,Feminin,16,Ville,9.67,Plus de 10h,0,1,bac / bac+2,brevet,5,4,yes
+GP,Feminin,15,Campagne,10.67,2 à 5 heures,0,1,baccalaureat,baccalaureat,4,4,yes
+GP,Feminin,15,Campagne,15.0,Plus de 10h,6,2,bac / bac+2,brevet,3,4,yes
+GP,Masculin,16,Ville,11.67,Plus de 10h,2,1,bac / bac+2,brevet,5,4,yes
+GP,Masculin,15,Ville,10.0,Plus de 10h,0,1,bac +3 et plus,baccalaureat,3,3,no
+GP,Feminin,15,Campagne,11.67,2 à 5 heures,2,2,brevet,brevet,5,3,yes
+GP,Masculin,16,Ville,13.33,Moins de 2h,0,2,bac / bac+2,brevet,5,5,no
+GP,Feminin,16,Ville,11.0,2 à 5 heures,4,2,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,15,Ville,11.0,2 à 5 heures,0,2,bac +3 et plus,bac / bac+2,5,4,yes
+GP,Masculin,15,Ville,11.33,Plus de 10h,0,1,bac +3 et plus,aucun,1,3,no
+GP,Feminin,16,Ville,13.0,Plus de 10h,1,1,baccalaureat,baccalaureat,3,5,no
+GP,Masculin,17,Ville,9.33,Moins de 2h,0,1,baccalaureat,brevet,3,4,yes
+GP,Feminin,16,Ville,11.33,2 à 5 heures,14,1,bac / bac+2,bac +3 et plus,3,2,yes
+GP,Masculin,15,Ville,11.33,Moins de 2h,0,1,baccalaureat,bac / bac+2,3,3,yes
+GP,Masculin,15,Ville,9.33,5 à 10 heures,2,1,baccalaureat,bac / bac+2,5,5,no
+GP,Feminin,15,Ville,11.33,2 à 5 heures,4,1,bac / bac+2,baccalaureat,5,4,yes
+GP,Masculin,15,Ville,12.67,2 à 5 heures,2,1,baccalaureat,baccalaureat,4,5,no
+GP,Feminin,15,Ville,12.33,2 à 5 heures,2,2,brevet,brevet,4,4,yes
+GP,Feminin,15,Ville,11.67,2 à 5 heures,4,2,bac +3 et plus,bac +3 et plus,5,4,no
+GP,Feminin,16,Ville,11.67,2 à 5 heures,6,1,baccalaureat,baccalaureat,2,4,yes
+GP,Feminin,15,Ville,15.0,5 à 10 heures,4,1,bac +3 et plus,baccalaureat,1,5,yes
+GP,Masculin,16,Ville,11.0,2 à 5 heures,6,1,baccalaureat,baccalaureat,3,4,no
+GP,Masculin,16,Ville,9.33,2 à 5 heures,6,3,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Feminin,16,Ville,10.33,5 à 10 heures,2,1,bac / bac+2,bac / bac+2,4,4,yes
+GP,Feminin,15,Ville,13.33,Moins de 2h,6,1,bac +3 et plus,bac / bac+2,1,4,no
+GP,Feminin,16,Ville,12.33,2 à 5 heures,0,2,bac / bac+2,brevet,2,3,yes
+GP,Feminin,16,Ville,13.67,2 à 5 heures,2,1,bac +3 et plus,baccalaureat,1,5,yes
+GP,Masculin,15,Ville,11.67,Plus de 10h,2,1,baccalaureat,baccalaureat,4,4,yes
+GP,Feminin,15,Campagne,13.0,Plus de 10h,4,1,brevet,brevet,1,3,yes
+GP,Masculin,16,Campagne,10.33,Moins de 2h,6,1,bac +3 et plus,bac / bac+2,4,3,yes
+GP,Feminin,16,Ville,12.33,2 à 5 heures,0,1,baccalaureat,brevet,5,4,yes
+GP,Feminin,16,Ville,12.67,Moins de 2h,4,1,bac +3 et plus,bac +3 et plus,1,5,no
+GP,Feminin,16,Ville,12.67,5 à 10 heures,2,1,bac +3 et plus,bac / bac+2,3,5,yes
+GP,Masculin,16,Ville,8.67,Moins de 2h,12,5,bac +3 et plus,bac +3 et plus,4,4,yes
+GP,Masculin,16,Ville,16.0,5 à 10 heures,0,1,bac +3 et plus,bac +3 et plus,4,4,yes
+GP,Masculin,15,Ville,12.33,Moins de 2h,2,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Feminin,15,Ville,10.33,2 à 5 heures,16,1,bac / bac+2,baccalaureat,2,4,yes
+GP,Masculin,15,Ville,16.0,2 à 5 heures,0,1,bac / bac+2,bac +3 et plus,1,5,yes
+GP,Feminin,15,Ville,10.0,Plus de 10h,10,1,bac / bac+2,bac / bac+2,4,4,no
+GP,Feminin,15,Ville,10.0,Plus de 10h,4,1,baccalaureat,baccalaureat,3,5,yes
+GP,Masculin,16,Ville,13.67,5 à 10 heures,4,1,bac / bac+2,bac / bac+2,5,5,yes
+GP,Masculin,15,Campagne,11.0,Plus de 10h,8,3,bac +3 et plus,bac +3 et plus,1,1,yes
+GP,Feminin,16,Ville,14.67,5 à 10 heures,2,1,bac +3 et plus,bac +3 et plus,4,5,yes
+GP,Masculin,15,Ville,13.67,Moins de 2h,4,1,bac +3 et plus,bac +3 et plus,4,5,no
+GP,Feminin,16,Campagne,11.0,5 à 10 heures,4,1,bac / bac+2,bac / bac+2,2,4,yes
+GP,Feminin,16,Ville,9.33,2 à 5 heures,12,1,baccalaureat,baccalaureat,5,3,no
+GP,Masculin,15,Ville,17.67,Moins de 2h,10,1,bac +3 et plus,baccalaureat,3,3,no
+GP,Masculin,15,Campagne,9.67,2 à 5 heures,4,1,baccalaureat,brevet,5,5,no
+GP,Masculin,16,Ville,14.67,2 à 5 heures,6,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Masculin,15,Ville,15.67,2 à 5 heures,4,1,bac +3 et plus,bac +3 et plus,2,4,yes
+GP,Masculin,16,Ville,14.33,Moins de 2h,6,1,bac / bac+2,bac / bac+2,5,5,no
+GP,Masculin,17,Campagne,11.33,2 à 5 heures,14,1,brevet,bac / bac+2,5,5,yes
+GP,Masculin,15,Ville,13.67,Moins de 2h,2,1,bac / bac+2,bac +3 et plus,4,3,no
+GP,Feminin,15,Ville,14.0,2 à 5 heures,0,1,brevet,baccalaureat,1,3,no
+GP,Masculin,15,Ville,13.33,Plus de 10h,6,1,baccalaureat,baccalaureat,5,5,yes
+GP,Feminin,16,Ville,13.0,2 à 5 heures,2,1,baccalaureat,bac +3 et plus,5,4,yes
+GP,Masculin,16,Ville,12.67,Moins de 2h,4,1,bac +3 et plus,bac +3 et plus,5,3,yes
+GP,Feminin,16,Ville,11.33,2 à 5 heures,0,1,baccalaureat,baccalaureat,5,5,no
+GP,Masculin,15,Ville,9.0,Moins de 2h,2,3,bac / bac+2,bac +3 et plus,5,5,no
+GP,Feminin,15,Ville,10.67,2 à 5 heures,0,1,bac / bac+2,bac +3 et plus,1,5,no
+GP,Feminin,19,Ville,10.0,2 à 5 heures,0,1,aucun,brevet,5,3,yes
+GP,Masculin,16,Campagne,14.33,Moins de 2h,8,2,bac +3 et plus,bac +3 et plus,4,3,no
+GP,Masculin,16,Ville,12.67,5 à 10 heures,4,2,baccalaureat,bac / bac+2,1,3,yes
+GP,Feminin,15,Campagne,11.0,5 à 10 heures,0,2,bac / bac+2,bac +3 et plus,5,4,yes
+GP,Feminin,18,Ville,9.0,2 à 5 heures,10,1,baccalaureat,brevet,5,5,yes
+GP,Feminin,17,Ville,10.67,Moins de 2h,8,1,baccalaureat,brevet,5,3,yes
+GP,Feminin,15,Ville,12.0,Moins de 2h,6,1,brevet,brevet,4,4,yes
+GP,Feminin,17,Ville,12.33,Moins de 2h,2,1,baccalaureat,baccalaureat,5,3,yes
+GP,Feminin,16,Ville,14.0,Moins de 2h,12,1,bac / bac+2,bac +3 et plus,5,3,no
+GP,Masculin,16,Ville,9.67,Moins de 2h,4,1,baccalaureat,brevet,2,3,no
+GP,Feminin,16,Ville,11.67,Moins de 2h,12,1,baccalaureat,baccalaureat,5,5,no
+GP,Masculin,15,Campagne,11.33,2 à 5 heures,2,1,bac / bac+2,bac +3 et plus,5,5,yes
+GP,Feminin,15,Ville,14.0,5 à 10 heures,4,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Masculin,17,Campagne,9.67,2 à 5 heures,2,2,bac / bac+2,bac +3 et plus,5,5,no
+GP,Feminin,16,Campagne,13.33,2 à 5 heures,0,1,brevet,brevet,3,5,yes
+GP,Masculin,18,Ville,11.33,Moins de 2h,2,4,bac / bac+2,brevet,4,3,no
+GP,Feminin,18,Ville,11.33,5 à 10 heures,10,5,bac / bac+2,baccalaureat,5,4,yes
+GP,Feminin,16,Campagne,11.33,Moins de 2h,8,1,brevet,brevet,1,3,yes
+GP,Feminin,16,Ville,9.33,Moins de 2h,4,1,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,16,Ville,10.0,2 à 5 heures,0,1,brevet,brevet,5,4,no
+GP,Feminin,15,Ville,13.67,Moins de 2h,6,1,bac +3 et plus,bac +3 et plus,5,4,no
+GP,Feminin,15,Campagne,8.67,Moins de 2h,2,1,brevet,brevet,1,5,no
+GP,Masculin,15,Ville,10.33,Plus de 10h,6,1,bac +3 et plus,bac / bac+2,3,2,yes
+GP,Feminin,15,Ville,8.67,2 à 5 heures,24,2,bac / bac+2,bac / bac+2,1,1,no
+GP,Masculin,16,Ville,13.67,5 à 10 heures,0,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Masculin,16,Ville,11.33,Moins de 2h,4,2,baccalaureat,baccalaureat,2,2,yes
+GP,Feminin,15,Ville,13.0,5 à 10 heures,2,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Feminin,16,Ville,10.67,Moins de 2h,4,3,brevet,brevet,1,3,no
+GP,Masculin,17,Ville,7.33,Moins de 2h,22,1,baccalaureat,brevet,5,5,yes
+GP,Feminin,15,Ville,12.0,2 à 5 heures,0,1,brevet,brevet,5,4,yes
+GP,Feminin,15,Ville,10.33,Moins de 2h,0,1,baccalaureat,brevet,5,4,yes
+GP,Feminin,15,Ville,11.0,2 à 5 heures,2,1,bac / bac+2,baccalaureat,3,3,yes
+GP,Feminin,15,Ville,12.67,2 à 5 heures,6,1,brevet,baccalaureat,5,4,yes
+GP,Feminin,15,Ville,11.0,2 à 5 heures,6,2,brevet,baccalaureat,1,2,no
+GP,Masculin,16,Ville,8.67,Moins de 2h,16,2,bac +3 et plus,bac +3 et plus,5,3,yes
+GP,Masculin,15,Ville,11.33,Moins de 2h,0,2,baccalaureat,brevet,5,4,no
+GP,Masculin,18,Ville,6.67,Moins de 2h,0,2,brevet,brevet,4,2,no
+GP,Masculin,16,Ville,9.67,Moins de 2h,6,3,baccalaureat,brevet,5,4,no
+GP,Feminin,15,Campagne,13.0,5 à 10 heures,2,2,bac / bac+2,bac / bac+2,3,4,yes
+GP,Masculin,19,Ville,10.33,Moins de 2h,6,1,bac / bac+2,baccalaureat,4,4,yes
+GP,Feminin,17,Ville,13.0,Moins de 2h,0,1,bac +3 et plus,bac +3 et plus,4,4,yes
+GP,Masculin,15,Campagne,7.67,2 à 5 heures,0,1,baccalaureat,bac / bac+2,1,4,no
+GP,Masculin,17,Campagne,9.0,Moins de 2h,14,3,brevet,baccalaureat,5,2,no
+GP,Feminin,18,Campagne,10.67,Moins de 2h,6,1,brevet,brevet,4,5,yes
+GP,Masculin,16,Campagne,11.0,Moins de 2h,4,1,baccalaureat,baccalaureat,3,4,no
+GP,Masculin,16,Ville,7.0,2 à 5 heures,0,4,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,16,Ville,9.0,Moins de 2h,0,3,brevet,baccalaureat,5,4,no
+GP,Masculin,17,Campagne,8.33,Moins de 2h,8,2,baccalaureat,brevet,5,3,no
+GP,Masculin,17,Campagne,7.0,2 à 5 heures,4,1,bac / bac+2,baccalaureat,3,4,yes
+GP,Masculin,15,Ville,9.0,Moins de 2h,2,2,brevet,baccalaureat,5,4,no
+GP,Masculin,16,Ville,8.33,Moins de 2h,2,1,brevet,bac / bac+2,2,5,no
+GP,Masculin,17,Campagne,8.0,2 à 5 heures,0,1,brevet,brevet,5,5,no
+GP,Masculin,17,Ville,7.67,Moins de 2h,10,1,bac / bac+2,baccalaureat,2,4,yes
+GP,Masculin,16,Ville,10.0,2 à 5 heures,0,2,baccalaureat,baccalaureat,4,4,no
+GP,Feminin,16,Ville,17.33,2 à 5 heures,0,1,bac +3 et plus,baccalaureat,3,4,no
+GP,Feminin,16,Ville,12.33,2 à 5 heures,0,1,baccalaureat,baccalaureat,4,5,yes
+GP,Feminin,16,Ville,16.33,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,3,4,yes
+GP,Masculin,16,Ville,9.33,Moins de 2h,4,2,bac / bac+2,bac +3 et plus,2,3,yes
+GP,Masculin,16,Ville,17.0,2 à 5 heures,0,1,brevet,aucun,3,4,yes
+GP,Masculin,17,Ville,10.0,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Feminin,16,Ville,13.33,2 à 5 heures,0,1,brevet,bac / bac+2,3,4,no
+GP,Feminin,16,Ville,14.33,2 à 5 heures,0,1,bac / bac+2,bac / bac+2,4,4,yes
+GP,Masculin,17,Ville,10.67,2 à 5 heures,0,4,bac +3 et plus,bac / bac+2,4,4,no
+GP,Feminin,16,Ville,13.0,2 à 5 heures,0,1,baccalaureat,baccalaureat,5,3,no
+GP,Masculin,17,Ville,10.0,2 à 5 heures,4,1,bac / bac+2,bac / bac+2,4,4,no
+GP,Masculin,16,Campagne,10.0,Moins de 2h,8,3,bac +3 et plus,baccalaureat,3,4,yes
+GP,Masculin,17,Ville,11.67,2 à 5 heures,4,1,bac +3 et plus,bac / bac+2,2,5,yes
+GP,Masculin,16,Ville,10.67,2 à 5 heures,4,2,bac +3 et plus,bac / bac+2,3,3,yes
+GP,Masculin,16,Ville,12.0,2 à 5 heures,0,1,bac / bac+2,bac / bac+2,3,4,no
+GP,Feminin,17,Ville,17.33,2 à 5 heures,0,2,baccalaureat,bac +3 et plus,5,5,yes
+GP,Feminin,17,Ville,13.67,2 à 5 heures,32,2,bac / bac+2,bac / bac+2,1,5,yes
+GP,Feminin,16,Ville,15.0,2 à 5 heures,8,1,bac / bac+2,baccalaureat,1,1,yes
+GP,Masculin,17,Ville,12.67,2 à 5 heures,6,2,bac / bac+2,bac / bac+2,4,4,yes
+GP,Masculin,16,Ville,10.0,Moins de 2h,0,1,brevet,baccalaureat,3,3,yes
+GP,Masculin,16,Ville,14.33,2 à 5 heures,0,1,baccalaureat,brevet,5,4,no
+GP,Feminin,17,Ville,13.0,2 à 5 heures,10,1,bac / bac+2,bac / bac+2,3,3,yes
+GP,Masculin,17,Campagne,9.33,2 à 5 heures,6,1,brevet,baccalaureat,3,3,no
+GP,Feminin,16,Ville,12.33,2 à 5 heures,6,1,baccalaureat,bac / bac+2,2,4,no
+GP,Feminin,17,Ville,11.67,2 à 5 heures,0,1,brevet,brevet,3,5,no
+GP,Masculin,17,Ville,11.0,2 à 5 heures,16,4,brevet,baccalaureat,5,4,no
+GP,Masculin,16,Campagne,10.33,Moins de 2h,0,3,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,16,Ville,12.33,Moins de 2h,0,1,baccalaureat,bac / bac+2,3,5,no
+GP,Feminin,17,Ville,15.0,2 à 5 heures,8,1,baccalaureat,bac +3 et plus,5,4,no
+GP,Masculin,17,Ville,13.33,Moins de 2h,4,1,bac +3 et plus,bac +3 et plus,5,5,no
+GP,Masculin,16,Campagne,11.0,Moins de 2h,16,3,bac / bac+2,bac / bac+2,3,3,yes
+GP,Feminin,17,Ville,15.0,Moins de 2h,30,2,bac +3 et plus,bac +3 et plus,2,4,yes
+GP,Feminin,16,Ville,10.67,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,3,4,yes
+GP,Feminin,16,Ville,14.33,2 à 5 heures,2,1,bac +3 et plus,bac / bac+2,2,4,yes
+GP,Feminin,16,Ville,11.67,2 à 5 heures,4,1,baccalaureat,bac / bac+2,4,4,yes
+GP,Feminin,17,Ville,14.67,2 à 5 heures,0,1,brevet,brevet,1,4,yes
+GP,Feminin,17,Campagne,13.0,Moins de 2h,21,1,baccalaureat,baccalaureat,3,5,yes
+GP,Feminin,16,Campagne,13.0,Plus de 10h,6,1,baccalaureat,baccalaureat,5,5,yes
+GP,Feminin,17,Ville,8.33,5 à 10 heures,14,3,bac / bac+2,bac +3 et plus,5,4,yes
+GP,Feminin,16,Ville,11.33,2 à 5 heures,2,2,bac / bac+2,brevet,4,2,yes
+GP,Feminin,16,Ville,14.67,2 à 5 heures,4,1,bac +3 et plus,bac / bac+2,1,1,no
+GP,Feminin,16,Ville,12.67,Moins de 2h,2,1,brevet,brevet,5,4,yes
+GP,Feminin,17,Campagne,11.67,5 à 10 heures,0,1,bac +3 et plus,bac / bac+2,4,4,yes
+GP,Feminin,19,Ville,12.0,Plus de 10h,4,1,bac / bac+2,bac / bac+2,3,4,yes
+GP,Masculin,17,Ville,12.33,2 à 5 heures,15,4,bac +3 et plus,bac +3 et plus,3,5,yes
+GP,Feminin,16,Ville,13.0,2 à 5 heures,0,1,baccalaureat,baccalaureat,4,3,yes
+GP,Masculin,18,Ville,11.33,2 à 5 heures,10,2,baccalaureat,baccalaureat,5,4,yes
+GP,Feminin,17,Campagne,11.33,Moins de 2h,6,1,bac +3 et plus,bac +3 et plus,3,5,yes
+GP,Feminin,17,Ville,15.0,2 à 5 heures,2,1,bac / bac+2,baccalaureat,1,4,no
+GP,Feminin,17,Ville,10.0,2 à 5 heures,16,2,bac +3 et plus,bac / bac+2,1,3,no
+GP,Masculin,18,Ville,10.0,2 à 5 heures,10,2,bac / bac+2,bac / bac+2,4,3,yes
+GP,Feminin,17,Ville,12.67,Moins de 2h,4,1,baccalaureat,bac / bac+2,3,3,yes
+GP,Feminin,17,Ville,12.33,5 à 10 heures,0,1,baccalaureat,baccalaureat,4,4,yes
+GP,Feminin,17,Campagne,10.67,2 à 5 heures,0,1,baccalaureat,brevet,5,4,yes
+GP,Feminin,17,Ville,12.0,5 à 10 heures,12,1,brevet,brevet,5,4,yes
+GP,Feminin,16,Ville,13.33,2 à 5 heures,0,1,baccalaureat,bac / bac+2,3,2,no
+GP,Masculin,18,Ville,9.67,2 à 5 heures,9,5,baccalaureat,baccalaureat,4,3,yes
+GP,Feminin,16,Ville,15.67,5 à 10 heures,4,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Feminin,18,Campagne,8.0,2 à 5 heures,4,1,bac / bac+2,brevet,4,5,no
+GP,Feminin,17,Ville,17.33,2 à 5 heures,2,1,bac / bac+2,baccalaureat,3,5,no
+GP,Masculin,17,Ville,10.67,2 à 5 heures,0,1,baccalaureat,bac / bac+2,3,5,yes
+GP,Masculin,18,Ville,10.0,2 à 5 heures,2,4,baccalaureat,brevet,3,4,yes
+GP,Feminin,17,Ville,15.33,5 à 10 heures,0,1,baccalaureat,brevet,3,3,no
+GP,Feminin,17,Ville,12.67,2 à 5 heures,0,1,bac +3 et plus,bac / bac+2,3,3,no
+GP,Masculin,17,Campagne,12.67,2 à 5 heures,0,1,baccalaureat,baccalaureat,1,4,yes
+GP,Masculin,17,Ville,13.0,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,2,4,yes
+GP,Masculin,16,Ville,13.33,2 à 5 heures,0,2,bac +3 et plus,bac +3 et plus,1,4,yes
+GP,Masculin,16,Ville,9.0,2 à 5 heures,2,1,brevet,brevet,5,3,yes
+GP,Masculin,16,Ville,12.0,5 à 10 heures,0,1,bac / bac+2,baccalaureat,2,5,no
+GP,Masculin,17,Ville,16.0,2 à 5 heures,0,5,baccalaureat,baccalaureat,4,4,no
+GP,Feminin,16,Ville,9.67,Moins de 2h,4,1,baccalaureat,brevet,5,4,no
+GP,Feminin,16,Ville,13.33,2 à 5 heures,0,1,bac +3 et plus,brevet,5,5,no
+GP,Feminin,18,Ville,10.0,2 à 5 heures,18,1,baccalaureat,bac +3 et plus,3,4,yes
+GP,Feminin,18,Ville,9.0,2 à 5 heures,16,1,baccalaureat,baccalaureat,5,5,yes
+GP,Feminin,18,Ville,7.33,Moins de 2h,14,1,bac / bac+2,bac / bac+2,3,4,no
+GP,Masculin,18,Ville,7.67,Moins de 2h,26,2,baccalaureat,baccalaureat,1,4,yes
+GP,Masculin,17,Ville,9.0,Moins de 2h,6,1,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Feminin,17,Ville,14.33,2 à 5 heures,4,1,bac / bac+2,baccalaureat,3,5,no
+GP,Feminin,17,Ville,10.33,5 à 10 heures,10,1,brevet,brevet,4,4,yes
+GP,Feminin,16,Ville,11.33,Moins de 2h,4,1,brevet,baccalaureat,5,5,no
+GP,Feminin,17,Campagne,13.0,2 à 5 heures,2,1,baccalaureat,brevet,3,2,no
+GP,Feminin,17,Campagne,8.67,Moins de 2h,14,1,brevet,bac +3 et plus,5,5,yes
+GP,Masculin,18,Ville,7.67,2 à 5 heures,16,3,baccalaureat,baccalaureat,2,5,no
+GP,Feminin,17,Ville,10.0,Moins de 2h,8,1,baccalaureat,baccalaureat,1,3,yes
+GP,Feminin,17,Campagne,14.67,5 à 10 heures,4,1,brevet,brevet,5,4,no
+GP,Feminin,17,Ville,14.33,2 à 5 heures,4,1,bac +3 et plus,baccalaureat,4,4,yes
+GP,Masculin,17,Ville,15.0,2 à 5 heures,8,1,bac +3 et plus,bac / bac+2,5,2,no
+GP,Masculin,17,Campagne,12.0,2 à 5 heures,0,2,bac +3 et plus,bac +3 et plus,4,3,yes
+GP,Masculin,16,Ville,14.33,Moins de 2h,7,1,bac +3 et plus,bac / bac+2,3,5,no
+GP,Masculin,16,Ville,14.67,Moins de 2h,4,1,bac +3 et plus,bac +3 et plus,5,5,no
+GP,Feminin,17,Ville,11.33,2 à 5 heures,2,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Masculin,17,Campagne,14.0,5 à 10 heures,2,1,brevet,brevet,1,4,no
+GP,Feminin,17,Ville,11.0,5 à 10 heures,10,2,bac / bac+2,bac / bac+2,5,4,yes
+GP,Feminin,17,Ville,9.67,2 à 5 heures,10,1,brevet,brevet,4,4,no
+GP,Feminin,18,Ville,11.0,5 à 10 heures,10,1,baccalaureat,brevet,3,4,yes
+GP,Masculin,16,Ville,15.67,Moins de 2h,7,1,baccalaureat,brevet,4,4,no
+GP,Feminin,17,Ville,10.67,2 à 5 heures,4,1,brevet,brevet,5,4,yes
+GP,Masculin,17,Ville,11.33,Moins de 2h,2,1,baccalaureat,bac / bac+2,2,5,no
+GP,Masculin,22,Ville,6.67,Moins de 2h,12,5,bac / bac+2,brevet,1,5,no
+GP,Masculin,18,Campagne,9.67,2 à 5 heures,8,1,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,16,Ville,11.33,Moins de 2h,0,2,aucun,baccalaureat,5,4,no
+GP,Masculin,18,Ville,7.33,Moins de 2h,8,2,bac / bac+2,baccalaureat,5,4,no
+GP,Masculin,16,Ville,10.0,2 à 5 heures,4,1,bac / bac+2,bac / bac+2,2,5,yes
+GP,Masculin,18,Ville,7.0,Moins de 2h,4,2,baccalaureat,brevet,5,3,no
+GP,Masculin,16,Campagne,13.0,Moins de 2h,2,1,baccalaureat,brevet,3,3,no
+GP,Masculin,17,Campagne,12.33,Moins de 2h,0,2,baccalaureat,brevet,5,4,no
+GP,Masculin,17,Ville,9.67,Moins de 2h,0,1,brevet,brevet,5,4,yes
+GP,Feminin,18,Ville,12.33,2 à 5 heures,2,1,baccalaureat,brevet,5,4,yes
+GP,Feminin,17,Ville,15.33,Plus de 10h,2,1,bac +3 et plus,baccalaureat,4,4,yes
+GP,Feminin,19,Ville,10.33,2 à 5 heures,0,1,baccalaureat,baccalaureat,5,4,yes
+GP,Masculin,18,Ville,10.67,2 à 5 heures,4,4,baccalaureat,brevet,5,4,no
+GP,Feminin,17,Campagne,12.33,5 à 10 heures,2,1,bac +3 et plus,baccalaureat,5,4,yes
+GP,Feminin,18,Ville,12.33,5 à 10 heures,4,2,brevet,brevet,3,4,yes
+GP,Feminin,18,Campagne,11.67,2 à 5 heures,4,1,baccalaureat,baccalaureat,5,3,no
+GP,Masculin,19,Ville,12.67,2 à 5 heures,4,1,bac +3 et plus,bac / bac+2,1,4,yes
+GP,Masculin,18,Ville,16.0,2 à 5 heures,2,1,baccalaureat,brevet,4,5,no
+GP,Masculin,17,Campagne,9.67,Moins de 2h,0,1,baccalaureat,baccalaureat,4,5,no
+GP,Feminin,17,Ville,11.0,Plus de 10h,2,1,baccalaureat,baccalaureat,2,3,no
+GP,Feminin,20,Campagne,11.33,2 à 5 heures,8,1,baccalaureat,brevet,2,1,yes
+GP,Feminin,18,Ville,15.0,2 à 5 heures,2,1,bac +3 et plus,bac / bac+2,2,3,yes
+GP,Masculin,18,Ville,10.33,2 à 5 heures,2,1,bac +3 et plus,bac / bac+2,3,4,yes
+GP,Masculin,18,Campagne,11.0,5 à 10 heures,2,1,bac / bac+2,baccalaureat,3,5,no
+GP,Feminin,17,Ville,13.33,5 à 10 heures,2,1,bac / bac+2,bac / bac+2,4,3,no
+GP,Feminin,18,Ville,12.0,5 à 10 heures,0,1,baccalaureat,baccalaureat,3,4,yes
+GP,Masculin,17,Ville,8.33,Moins de 2h,8,2,baccalaureat,baccalaureat,4,4,no
+GP,Masculin,18,Campagne,15.67,2 à 5 heures,6,3,bac / bac+2,bac +3 et plus,1,4,yes
+GP,Masculin,17,Ville,12.0,2 à 5 heures,0,3,bac / bac+2,brevet,5,5,no
+GP,Feminin,18,Campagne,11.0,2 à 5 heures,8,2,bac +3 et plus,bac +3 et plus,4,4,no
+GP,Masculin,18,Ville,12.0,2 à 5 heures,4,1,bac +3 et plus,baccalaureat,5,5,yes
+GP,Feminin,18,Campagne,9.0,2 à 5 heures,12,1,baccalaureat,brevet,3,4,yes
+GP,Feminin,19,Ville,11.67,2 à 5 heures,16,3,bac / bac+2,bac / bac+2,5,4,yes
+GP,Feminin,18,Ville,16.0,Plus de 10h,10,1,baccalaureat,bac / bac+2,2,4,yes
+GP,Feminin,18,Ville,13.0,2 à 5 heures,2,1,brevet,brevet,3,4,yes
+GP,Masculin,17,Campagne,17.0,2 à 5 heures,2,2,brevet,baccalaureat,1,3,yes
+GP,Feminin,18,Ville,14.33,2 à 5 heures,8,1,baccalaureat,brevet,1,4,yes
+GP,Feminin,17,Ville,15.67,2 à 5 heures,6,1,baccalaureat,bac +3 et plus,1,4,yes
+GP,Feminin,17,Ville,12.0,2 à 5 heures,6,2,baccalaureat,baccalaureat,5,4,yes
+GP,Feminin,18,Campagne,10.33,2 à 5 heures,15,1,bac / bac+2,baccalaureat,5,4,no
+GP,Masculin,18,Ville,11.67,Moins de 2h,6,1,bac +3 et plus,bac +3 et plus,3,3,no
+GP,Feminin,18,Ville,13.0,2 à 5 heures,2,1,bac +3 et plus,bac +3 et plus,4,2,yes
+GP,Feminin,17,Ville,14.33,5 à 10 heures,8,1,baccalaureat,baccalaureat,1,4,yes
+GP,Feminin,19,Campagne,9.0,2 à 5 heures,0,4,bac / bac+2,baccalaureat,3,3,yes
+GP,Masculin,18,Ville,10.0,Moins de 2h,0,1,bac +3 et plus,bac / bac+2,1,4,no
+GP,Masculin,18,Ville,10.33,Moins de 2h,10,2,brevet,baccalaureat,4,3,no
+GP,Masculin,17,Ville,10.67,Moins de 2h,22,2,bac +3 et plus,brevet,5,4,no
+GP,Masculin,17,Ville,13.0,Moins de 2h,18,3,bac / bac+2,baccalaureat,3,4,no
+GP,Feminin,18,Campagne,17.33,Plus de 10h,2,1,brevet,brevet,3,5,yes
+GP,Feminin,18,Ville,12.67,2 à 5 heures,0,1,brevet,brevet,4,5,no
+GP,Feminin,17,Ville,12.67,2 à 5 heures,12,1,baccalaureat,baccalaureat,5,5,yes
+GP,Feminin,18,Ville,13.0,2 à 5 heures,10,1,baccalaureat,brevet,5,4,no
+GP,Masculin,17,Ville,12.0,2 à 5 heures,0,1,brevet,brevet,4,4,no
+GP,Feminin,18,Ville,18.0,5 à 10 heures,0,1,baccalaureat,baccalaureat,2,4,yes
+GP,Feminin,17,Ville,13.33,5 à 10 heures,0,1,brevet,brevet,3,4,yes
+GP,Masculin,18,Ville,14.67,5 à 10 heures,0,1,baccalaureat,brevet,2,4,no
+GP,Masculin,18,Ville,17.0,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,2,5,yes
+GP,Masculin,18,Ville,15.67,2 à 5 heures,2,1,bac +3 et plus,baccalaureat,5,4,yes
+GP,Feminin,17,Ville,17.67,5 à 10 heures,0,1,bac +3 et plus,bac / bac+2,3,4,yes
+GP,Feminin,17,Campagne,18.67,Plus de 10h,0,1,bac / bac+2,brevet,3,3,yes
+GP,Masculin,18,Campagne,14.67,5 à 10 heures,0,1,bac / bac+2,baccalaureat,4,5,yes
+GP,Masculin,17,Ville,14.67,Moins de 2h,0,1,bac / bac+2,bac / bac+2,5,4,yes
+GP,Feminin,19,Ville,13.33,2 à 5 heures,2,2,bac +3 et plus,bac +3 et plus,2,2,yes
+GP,Feminin,18,Ville,13.67,2 à 5 heures,0,1,bac +3 et plus,bac / bac+2,2,4,yes
+GP,Feminin,18,Ville,16.67,Plus de 10h,0,1,bac +3 et plus,bac / bac+2,3,4,yes
+GP,Masculin,18,Ville,17.67,Moins de 2h,0,2,bac +3 et plus,bac +3 et plus,1,1,yes
+GP,Feminin,18,Ville,14.67,2 à 5 heures,0,1,bac +3 et plus,bac +3 et plus,4,4,yes
+GP,Masculin,17,Ville,12.67,Moins de 2h,0,2,bac +3 et plus,bac +3 et plus,5,4,no
+GP,Feminin,17,Campagne,7.33,5 à 10 heures,0,1,bac +3 et plus,bac +3 et plus,5,5,yes
+GP,Feminin,17,Ville,16.0,5 à 10 heures,0,1,bac +3 et plus,baccalaureat,3,4,yes
+GP,Feminin,17,Ville,18.0,Plus de 10h,0,1,bac / bac+2,baccalaureat,5,5,yes
+GP,Masculin,19,Campagne,10.0,5 à 10 heures,0,1,baccalaureat,brevet,5,4,no
+GP,Masculin,20,Ville,14.67,Moins de 2h,0,1,bac / bac+2,baccalaureat,5,5,no
+GP,Masculin,19,Campagne,10.33,2 à 5 heures,0,1,bac / bac+2,bac / bac+2,5,4,no
+GP,Feminin,18,Ville,10.33,2 à 5 heures,2,1,brevet,bac +3 et plus,5,3,yes
+GP,Feminin,18,Ville,13.0,2 à 5 heures,2,1,baccalaureat,brevet,1,5,yes
+GP,Feminin,17,Ville,12.33,2 à 5 heures,2,1,baccalaureat,bac / bac+2,3,4,no
+GP,Feminin,17,Campagne,16.0,Moins de 2h,2,1,bac +3 et plus,bac +3 et plus,5,4,no
+GP,Feminin,18,Ville,15.33,5 à 10 heures,2,1,bac +3 et plus,bac / bac+2,5,4,yes
+GP,Feminin,18,Ville,13.0,Moins de 2h,8,1,bac +3 et plus,bac / bac+2,1,3,yes
+GP,Feminin,17,Campagne,15.67,5 à 10 heures,2,2,bac / bac+2,bac +3 et plus,5,4,yes
+GP,Feminin,18,Ville,12.33,2 à 5 heures,8,1,bac / bac+2,bac / bac+2,3,4,yes
+GP,Masculin,19,Ville,10.33,2 à 5 heures,9,1,bac +3 et plus,baccalaureat,1,5,yes
+GP,Feminin,18,Ville,12.0,2 à 5 heures,0,3,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Feminin,18,Ville,12.33,Moins de 2h,4,1,bac / bac+2,bac +3 et plus,1,5,yes
+GP,Feminin,17,Ville,15.33,Moins de 2h,2,1,bac +3 et plus,bac +3 et plus,5,5,no
+GP,Feminin,17,Ville,15.33,2 à 5 heures,14,1,bac +3 et plus,bac / bac+2,5,5,yes
+GP,Feminin,17,Ville,12.33,2 à 5 heures,0,1,bac / bac+2,bac / bac+2,5,5,yes
+GP,Feminin,17,Ville,12.33,2 à 5 heures,2,2,baccalaureat,brevet,2,4,no
+GP,Masculin,18,Ville,9.33,Moins de 2h,2,3,bac +3 et plus,bac +3 et plus,5,4,yes
+GP,Feminin,19,Ville,10.33,5 à 10 heures,12,4,brevet,brevet,5,1,no
+GP,Feminin,19,Ville,8.33,2 à 5 heures,2,1,brevet,brevet,4,5,yes
+GP,Feminin,18,Ville,10.0,Moins de 2h,2,2,baccalaureat,baccalaureat,5,4,yes
+GP,Feminin,17,Ville,13.33,2 à 5 heures,4,1,baccalaureat,baccalaureat,3,4,yes
+GP,Feminin,17,Campagne,10.67,5 à 10 heures,0,2,baccalaureat,baccalaureat,3,3,yes
+GP,Feminin,17,Ville,17.33,5 à 10 heures,0,2,bac / bac+2,brevet,5,3,yes
+GP,Feminin,17,Ville,14.33,5 à 10 heures,0,2,aucun,baccalaureat,2,3,no
+GP,Feminin,18,Ville,14.0,5 à 10 heures,0,1,brevet,brevet,2,4,no
+GP,Masculin,18,Ville,13.33,5 à 10 heures,0,2,bac +3 et plus,bac +3 et plus,3,4,no
+GP,Masculin,17,Ville,17.33,Moins de 2h,0,3,bac / bac+2,bac / bac+2,5,4,no
+GP,Masculin,17,Campagne,10.33,Moins de 2h,2,5,baccalaureat,baccalaureat,4,4,yes
+GP,Feminin,17,Ville,12.67,5 à 10 heures,0,1,bac +3 et plus,bac +3 et plus,4,5,yes
+GP,Feminin,17,Ville,14.67,5 à 10 heures,4,1,bac +3 et plus,bac +3 et plus,4,4,yes
+GP,Feminin,17,Ville,11.33,Moins de 2h,2,2,bac / bac+2,bac / bac+2,5,4,yes
+GP,Masculin,18,Ville,11.33,Plus de 10h,0,2,baccalaureat,baccalaureat,5,4,yes
+GP,Masculin,19,Campagne,10.33,Moins de 2h,0,2,bac / bac+2,baccalaureat,5,5,yes
+GP,Feminin,18,Ville,9.67,2 à 5 heures,2,1,baccalaureat,baccalaureat,2,4,no
+GP,Feminin,17,Campagne,15.0,5 à 10 heures,0,1,baccalaureat,bac +3 et plus,5,4,yes
+GP,Masculin,18,Ville,14.67,Moins de 2h,6,1,baccalaureat,baccalaureat,5,5,no
+GP,Feminin,18,Ville,11.0,2 à 5 heures,8,1,bac / bac+2,bac / bac+2,4,5,no
+GP,Feminin,18,Ville,10.33,2 à 5 heures,0,1,baccalaureat,baccalaureat,2,4,no
+GP,Feminin,18,Campagne,13.67,Plus de 10h,6,1,baccalaureat,baccalaureat,4,4,no
+GP,Feminin,17,Ville,12.67,5 à 10 heures,8,1,bac / bac+2,bac +3 et plus,5,4,no
+GP,Feminin,17,Ville,13.33,2 à 5 heures,0,2,bac / bac+2,baccalaureat,2,4,yes
+GP,Feminin,18,Ville,14.33,Plus de 10h,4,1,bac / bac+2,bac / bac+2,1,5,yes
+GP,Feminin,17,Campagne,14.67,2 à 5 heures,0,2,bac / bac+2,baccalaureat,2,4,yes
+GP,Masculin,18,Ville,12.33,2 à 5 heures,0,2,bac +3 et plus,bac +3 et plus,2,4,yes
+GP,Masculin,18,Ville,16.33,2 à 5 heures,6,1,bac / bac+2,bac +3 et plus,5,4,no
+GP,Feminin,17,Ville,12.0,2 à 5 heures,18,1,baccalaureat,baccalaureat,4,3,yes
+GP,Feminin,18,Ville,12.33,5 à 10 heures,0,1,baccalaureat,bac / bac+2,3,4,yes
+GP,Feminin,18,Ville,15.67,5 à 10 heures,4,2,bac / bac+2,baccalaureat,1,5,no
+GP,Masculin,18,Campagne,15.33,5 à 10 heures,4,1,bac +3 et plus,bac / bac+2,4,5,no
+GP,Masculin,18,Ville,13.67,5 à 10 heures,0,2,bac +3 et plus,bac / bac+2,5,5,yes
+GP,Feminin,17,Ville,12.0,5 à 10 heures,0,1,bac +3 et plus,bac / bac+2,4,4,yes
+GP,Feminin,17,Ville,14.0,2 à 5 heures,10,2,baccalaureat,brevet,1,4,yes
+GP,Feminin,17,Ville,14.67,2 à 5 heures,4,2,baccalaureat,brevet,4,4,yes
+GP,Feminin,19,Ville,10.67,Moins de 2h,16,3,baccalaureat,bac / bac+2,5,2,no
+GP,Feminin,17,Ville,12.0,Moins de 2h,6,1,bac / bac+2,brevet,3,4,yes
+GP,Feminin,21,Ville,11.0,5 à 10 heures,0,1,bac +3 et plus,bac +3 et plus,5,3,no
+GP,Masculin,18,Ville,10.67,2 à 5 heures,11,1,baccalaureat,baccalaureat,3,4,yes
+GP,Masculin,18,Ville,14.0,2 à 5 heures,9,1,bac / bac+2,bac +3 et plus,2,4,no
+GP,Feminin,17,Ville,15.67,2 à 5 heures,0,1,baccalaureat,baccalaureat,4,4,yes
+GP,Masculin,17,Ville,14.0,5 à 10 heures,2,1,bac +3 et plus,bac +3 et plus,4,4,yes
+GP,Feminin,18,Ville,16.0,2 à 5 heures,0,1,bac +3 et plus,baccalaureat,3,4,yes
+GP,Masculin,21,Campagne,9.67,2 à 5 heures,21,5,brevet,brevet,4,5,yes
+GP,Feminin,20,Campagne,13.67,5 à 10 heures,8,1,brevet,brevet,3,3,no
+GP,Feminin,19,Ville,10.0,Moins de 2h,5,4,bac +3 et plus,bac +3 et plus,5,3,yes
+GP,Masculin,17,Ville,17.33,2 à 5 heures,10,1,bac / bac+2,baccalaureat,5,4,yes
+GP,Feminin,18,Ville,16.0,5 à 10 heures,5,1,bac / bac+2,baccalaureat,2,4,yes
+GP,Masculin,18,Campagne,13.67,Moins de 2h,13,4,baccalaureat,bac / bac+2,4,3,no
+GP,Masculin,19,Ville,9.67,Moins de 2h,10,1,baccalaureat,brevet,4,5,no
+GP,Feminin,18,Ville,16.0,2 à 5 heures,10,1,baccalaureat,baccalaureat,4,4,yes
+GP,Feminin,20,Ville,9.33,Moins de 2h,5,1,brevet,aucun,5,5,no
+GP,Feminin,18,Ville,12.0,2 à 5 heures,4,1,bac / bac+2,baccalaureat,1,3,yes

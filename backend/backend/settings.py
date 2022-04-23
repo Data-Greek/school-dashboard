@@ -1,6 +1,8 @@
 import os
+from datetime import timedelta
 from pathlib import Path
 import django_heroku
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -52,10 +54,24 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backend.urls'
 
 REST_FRAMEWORK = {
-
+    
+    # API access
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny'
-    ]
+    ],
+    
+    # Simple JWT auth
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ) 
+    }
+    
+
+SIMPLE_JWT = {
+    
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=30),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=3),
+    
 }
 
 TEMPLATES = [
