@@ -10,9 +10,7 @@ export const studentsActions = () => async (dispatch) => {
     dispatch({ type: STUDENT_LIST_REQUEST });
 
     //API CALL
-    const { data } = await axios.get(
-      "https://dashboard-school-pt.herokuapp.com/api"
-    );
+    const { data } = await axios.get("http://127.0.0.1:8000/api");
 
     dispatch({ type: STUDENT_LIST_SUCCESS, payload: data });
   } catch (error) {
