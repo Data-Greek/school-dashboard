@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import BootstrapTable from "react-bootstrap-table-next";
+import paginationFactory from "react-bootstrap-table2-paginator";
+import filterFactory, { textFilter } from "react-bootstrap-table2-filter";
 import {
   Container,
   Row,
@@ -39,9 +42,75 @@ function Dashboard() {
     dispatch(studentsActions());
     if (!userInfo) {
       // navigate("/");
-      // console.log("disconnected");
+    } else {
+      console.log(students);
     }
   }, [dispatch, userInfo, navigate]);
+
+  // Test Boostrap Table
+  const columns = [
+    {
+      dataField: "id",
+      text: "id",
+      sort: true,
+      // filter: textFilter(),
+    },
+    {
+      dataField: "sex",
+      text: "sexe",
+      sort: true,
+    },
+    {
+      dataField: "age",
+      text: "age",
+      sort: true,
+    },
+    {
+      dataField: "address",
+      text: "Lieu de vie",
+      sort: true,
+    },
+    {
+      dataField: "aggregated_notation",
+      text: "Moy. Générale",
+      sort: true,
+    },
+    {
+      dataField: "studytime",
+      text: "Temps de travail personnel",
+      sort: true,
+    },
+    {
+      dataField: "Dalc",
+      text: "Consommation d'alcool",
+      sort: true,
+    },
+    {
+      dataField: "Medu",
+      text: "Niveau d'étude de la mère",
+      sort: true,
+    },
+    {
+      dataField: "Fedu",
+      text: "Niveau d'étude du père",
+      sort: true,
+    },
+    {
+      dataField: "health",
+      text: "État de santé",
+      sort: true,
+    },
+    {
+      dataField: "famrel",
+      text: "Relation familiale",
+      sort: true,
+    },
+    {
+      dataField: "famsup",
+      text: "Aide familiale",
+      sort: true,
+    },
+  ];
 
   return (
     <Container className="py-5">
@@ -111,48 +180,17 @@ function Dashboard() {
                       </Alert>
                     </Col>
                   </Row>
-                  {/* TABLEAU DE L'ANALYSE */}
-                  <Table striped bordered hover responsive>
-                    <thead>
-                      <tr>
-                        <th className="text-center">id</th>
-                        <th className="text-center">School</th>
-                        <th className="text-center">Sexe</th>
-                        <th className="text-center">Age</th>
-                        <th className="text-center">Localité</th>
-                        <th className="text-center">Temps de travail</th>
-                        <th className="text-center">Nbre d'abscences</th>
-                        <th className="text-center">Rapport à l'alcool</th>
-                        <th className="text-center">Niv. d'étude de la mère</th>
-                        <th className="text-center">Niv. d'étude du père</th>
-                        <th className="text-center">État de santé</th>
-                        <th className="text-center">Bien être à la maison</th>
-                        <th className="text-center">Assistance à la maison</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {students.map((data) => (
-                        <tr key={data.id}>
-                          <td className="text-center">{data.id}</td>
-                          <td className="text-center">{data.school}</td>
-                          <td className="text-center">{data.sex}</td>
-                          <td className="text-center">{data.age}</td>
-                          <td className="text-center">{data.address}</td>
-                          <td className="text-center">{data.studytime}</td>
-                          <td className="text-center">{data.absences}</td>
-                          <td className="text-center">{data.Dalc}</td>
-                          <td className="text-center">{data.Medu}</td>
-                          <td className="text-center">{data.Fedu}</td>
-                          <td className="text-center">{data.health}</td>
-                          <td className="text-center">{data.famrel}</td>
-                          <td className="text-center">{data.famsup}</td>
-                          <td className="text-center">
-                            {data.aggregated_notation}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </Table>
+                  {/* TABLEAU DE DONNÉES */}
+                  <BootstrapTable
+                    keyField="id"
+                    data={students}
+                    columns={columns}
+                    striped
+                    hover
+                    condensed
+                    pagination={paginationFactory()}
+                    filter={filterFactory()}
+                  />
                 </Col>
                 <Col></Col>
               </Row>

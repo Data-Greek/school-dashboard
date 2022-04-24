@@ -4,15 +4,18 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { userActions } from "../Redux/Actions/userActions";
 
+// Error message component
+import Message from "../Components/Message";
+
 function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   // Chargement des paramètres de connexion
   const userLogin = useSelector((state) => state.userLogin);
-  const { userInfo } = userLogin;
+  const { error, userInfo } = userLogin;
 
-  // Instanciation de la fonction dispatch
+  // Instanciation de la fonction dispatch (POST Method)
   const dispatch = useDispatch();
 
   // Instanciation de la fonction de redirection
@@ -25,7 +28,7 @@ function Login() {
     dispatch(userActions(username, password));
   };
 
-  // Redirection en cas d'utilisateurs reconnus
+  // Redirection des utilisateurs authentifiés
   useEffect(() => {
     if (userInfo) {
       navigate("/dashboard");
@@ -37,13 +40,14 @@ function Login() {
       <Row>
         <Col></Col>
         <Col sm={6} md={4}>
+          {/* FORMULAIRE */}
           <Form className="login-center py-5" onSubmit={submitHandler}>
             <h3 className="text-center py-5">Portail de connexion</h3>
             <Form.Group className="mb-3" controlId="username">
-              <Form.Label>Email</Form.Label>
+              <Form.Label>Username</Form.Label>
               <Form.Control
                 type="username"
-                placeholder="username"
+                placeholder="Nom d'utilisateur"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
@@ -54,16 +58,22 @@ function Login() {
               <Form.Label>Mot de passe</Form.Label>
               <Form.Control
                 type="password"
-                placeholder="Password"
+                placeholder="Mot de passe"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
             </Form.Group>
 
             <Button type="submit" variant="primary">
-              Log in
+              Connexion
             </Button>
           </Form>
+          {/* ERROR MESSAGE */}
+          {error && (
+            <Message variant="danger">
+              E-mail ou mot de passe incorrect(s)
+            </Message>
+          )}
         </Col>
         <Col></Col>
       </Row>

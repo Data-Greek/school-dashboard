@@ -36,7 +36,6 @@ function Header() {
           {/* Logique conditionnelle en cas d'utilisateur connecté */}
           {userInfo ? (
             <NavDropdown
-              active={true}
               title={"Bonjour" + " " + userInfo.username}
               id="username"
             >
