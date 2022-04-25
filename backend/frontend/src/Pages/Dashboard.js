@@ -10,12 +10,10 @@ import {
   Col,
   Tab,
   Tabs,
-  Table,
   Alert,
   Form,
   Button,
 } from "react-bootstrap";
-
 import { studentsActions } from "../Redux/Actions/studentsActions";
 
 // Charts
@@ -27,8 +25,8 @@ import BarChartTwo from "../Charts/BarChartTwo";
 
 function Dashboard() {
   // dispatch function + navigate (redirection)
-  const dispatch = useDispatch();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   // selection du state (données chargées)
   const studentsData = useSelector((state) => state.studentReducers);
@@ -39,13 +37,16 @@ function Dashboard() {
   const { userInfo } = userLogin;
 
   useEffect(() => {
+    // Display database information
     dispatch(studentsActions());
-    if (!userInfo) {
-      // navigate("/");
+
+    // Redirection des utilisateurs non authentifié
+    if (!userInfo || userInfo === undefined || userInfo === null) {
+      navigate("/");
     } else {
-      console.log(students);
+      console.log(students.map((student) => student.id));
     }
-  }, [dispatch, userInfo, navigate]);
+  }, [userInfo, navigate]);
 
   // Test Boostrap Table
   const columns = [
@@ -133,6 +134,7 @@ function Dashboard() {
               {/* DISPLAY DATA */}
               <Row className="py-3">
                 <Col></Col>
+
                 <Col md={10}>
                   {/* MESSAGES EXPLICATIFS */}
                   <Row className="py-3">
@@ -179,6 +181,9 @@ function Dashboard() {
                         </p>
                       </Alert>
                     </Col>
+                    <h5 className="text-center" style={{ color: "green" }}>
+                      Cliquez sur les colonnes afin de filtrer les informations
+                    </h5>
                   </Row>
                   {/* TABLEAU DE DONNÉES */}
                   <BootstrapTable
@@ -190,6 +195,7 @@ function Dashboard() {
                     condensed
                     pagination={paginationFactory()}
                     filter={filterFactory()}
+                    wrapperClasses="table-responsive"
                   />
                 </Col>
                 <Col></Col>
@@ -205,7 +211,7 @@ function Dashboard() {
                     <h6>
                       <strong>Nombre d'élèves</strong>
                     </h6>
-                    <h1>423</h1>
+                    <h1>{students.length}</h1>
                   </Alert>
                 </Col>
                 <Col>
@@ -257,6 +263,7 @@ function Dashboard() {
               <h5 className="text-center">
                 <strong>Recherche par élève 🔍</strong>
               </h5>
+
               <Row className="py-5">
                 <Col></Col>
                 <Col sm={8} md={6}>
@@ -282,6 +289,11 @@ function Dashboard() {
                   </Col>
                 </Row>
               </Row>
+              <p className="text-center">
+                ⚠️idée future - non fonctionnelle / la recherche par nom ou ID
+                peut également être intégrée dans le tableau de l'onglet
+                relatifs aux aspects individuels
+              </p>
             </Tab>
           </Tabs>
         </Col>

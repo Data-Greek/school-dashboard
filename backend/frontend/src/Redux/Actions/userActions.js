@@ -19,7 +19,7 @@ export const userActions = (username, password) => async (dispatch) => {
 
     //Envoi des informations vers Django
     const { data } = await axios.post(
-      "http://127.0.0.1:8000/api/users/login/",
+      "https://dashboard-school-pt.herokuapp.com/api/users/login/",
       { username: username, password: password },
       config
     );

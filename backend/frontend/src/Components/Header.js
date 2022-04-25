@@ -46,7 +46,7 @@ function Header() {
           ) : (
             <LinkContainer to="/">
               <Nav.Link eventKey={2}>
-                <i class="fas fa-user "> </i> Se connecter
+                {/* <i class="fas fa-user "> </i> Se connecter */}
               </Nav.Link>
             </LinkContainer>
           )}
