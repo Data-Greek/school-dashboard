@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
@@ -10,9 +9,10 @@ from .models import Student
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 
-# Base de donnée principale : JSON data format
+
+# Liste des utilisateurs 
 @api_view(['GET'])
-# @permission_classes([IsAuthenticated])
+@permission_classes([IsAuthenticated])
 def index(request):
     
     queryset = Student.objects.all()
@@ -25,6 +25,15 @@ def index(request):
 @api_view(['POST'])
 @permission_classes([IsAdminUser])
 def loading_csv(request):
+    
+    """_Chargement d'un fichier CSV vers la BDD_
+
+    Args:
+        request (_str_): _POST Request_
+
+    Returns:
+        _JSON data_: _data load to Django BDD_
+    """
 
     # Importation du fichier CSV
     file = request.FILES['file']
@@ -70,8 +79,9 @@ def loading_csv(request):
 
     return Response(data)
 
-# Authentification class
+# JWT Authentification 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
+    
      def validate(self, attrs):
         data = super().validate(attrs)
 
@@ -82,6 +92,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             data[keys] = values
             
         return data
+    
 
 class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
@@ -90,6 +101,15 @@ class MyTokenObtainPairView(TokenObtainPairView):
  # User Serializer
 @api_view(['GET'])
 def user_login(request):
+    
+    """_Caractéristiques de l'utilisateur_
+
+    Args:
+        request (_str_): _GET Request_
+
+    Returns:
+        _JSON data_: _authentificated user_
+    """
     
     user = request.user
     serializer = UserSerializer(user, many=False)

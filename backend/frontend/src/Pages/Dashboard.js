@@ -125,11 +125,33 @@ function Dashboard() {
       <Row>
         <Col></Col>
         <Col md={12}>
+          {/* PRESENTATION */}
           <Tabs
-            defaultActiveKey="KPI"
+            defaultActiveKey="Présentation"
             id="uncontrolled-tab-example"
             className="mb-3"
           >
+            {/* RECHERCHE PAR ID */}
+            <Tab eventKey="Présentation" title="Présentation">
+              <Row className="py-5">
+                <h5 className="text-center">
+                  <strong>Objectifs et recommandations 🎯</strong>
+                </h5>
+              </Row>
+              <Row>
+                <Col></Col>
+                <Col sm={12} md={8}>
+                  <p className="text-center">
+                    Cette application a pour objectif de favoriser le suivi des
+                    élèves, en offrant au corps enseignant un outil à même de
+                    leur permettre de consulter ou de visualiser les tendances
+                    générales et les réalités individuelles qui se cachent
+                    derrière chaque parcours.{" "}
+                  </p>
+                </Col>
+                <Col></Col>
+              </Row>
+            </Tab>
             <Tab eventKey="Tableau" title="Aspects individuels">
               {/* DISPLAY DATA */}
               <Row className="py-3">
@@ -181,9 +203,10 @@ function Dashboard() {
                         </p>
                       </Alert>
                     </Col>
-                    <h5 className="text-center" style={{ color: "green" }}>
-                      Cliquez sur les colonnes afin de filtrer les informations
-                    </h5>
+                    <h6 className="text-center" style={{ color: "green" }}>
+                      Cliquez sur les noms des colonnes afin de filtrer les
+                      informations
+                    </h6>
                   </Row>
                   {/* TABLEAU DE DONNÉES */}
                   <BootstrapTable
@@ -291,8 +314,8 @@ function Dashboard() {
               </Row>
               <p className="text-center">
                 ⚠️idée future - non fonctionnelle / la recherche par nom ou ID
-                peut également être intégrée dans le tableau de l'onglet
-                relatifs aux aspects individuels
+                peut également être intégrée dans le tableau relatifs aux
+                aspects individuels
               </p>
             </Tab>
           </Tabs>
