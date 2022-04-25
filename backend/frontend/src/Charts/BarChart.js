@@ -37,7 +37,7 @@ function BarChart() {
     labels: ["2 à 5 heures", "Moins de 2h ", "5 à 10 heures", "Plus de 10h "],
     datasets: [
       {
-        label: ["Élèves en difficultés"],
+        label: ["Élèves en difficulté"],
         data: ["206", "119", "71", "27"],
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",

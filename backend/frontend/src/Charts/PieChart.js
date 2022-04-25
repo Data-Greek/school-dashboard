@@ -8,7 +8,7 @@ const data = {
   labels: ["Milieu citadin", "Milieu rural"],
   datasets: [
     {
-      label: "Élèves en difficultés",
+      label: "Élèves en difficulté",
       data: [45, 17],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",

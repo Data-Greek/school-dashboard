@@ -245,7 +245,7 @@ function Dashboard() {
                     <h1>12.23</h1>
                   </Alert>
                   <p className="text-center">
-                    8.68 de moyenne pour les élèves en difficultés
+                    8.68 de moyenne pour les élèves en difficulté
                   </p>
                 </Col>
                 <Col>
@@ -314,8 +314,8 @@ function Dashboard() {
               </Row>
               <p className="text-center">
                 ⚠️idée future - non fonctionnelle / la recherche par nom ou ID
-                peut également être intégrée dans le tableau relatifs aux
-                aspects individuels
+                peut également être intégrée dans le tableau relatif aux aspects
+                individuels
               </p>
             </Tab>
           </Tabs>

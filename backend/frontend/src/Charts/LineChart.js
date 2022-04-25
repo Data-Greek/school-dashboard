@@ -15,7 +15,7 @@ const data = {
   labels: ["", "", "", "", "", ""],
   datasets: [
     {
-      label: "Élèves en difficultés",
+      label: "Élèves en difficulté",
       data: ["1", "3", "4", "10", "11", "12"],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",

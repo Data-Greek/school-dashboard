@@ -15,7 +15,7 @@ const data = {
   labels: ["Très faible", "Faible", "Modéré", "Très forte", "Forte"],
   datasets: [
     {
-      label: ["Élèves en difficultés"],
+      label: ["Élèves en difficulté"],
       data: [35, 12, 9, 4, 2],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",

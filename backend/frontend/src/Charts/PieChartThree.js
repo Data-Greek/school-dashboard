@@ -8,7 +8,7 @@ const data = {
   labels: ["Oui", "Non"],
   datasets: [
     {
-      label: "Élèves en difficultés",
+      label: "Élèves en difficulté",
       data: [29, 33],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
