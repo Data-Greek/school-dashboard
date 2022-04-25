@@ -12,7 +12,6 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 
 # Liste des utilisateurs 
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
 def index(request):
     
     queryset = Student.objects.all()
