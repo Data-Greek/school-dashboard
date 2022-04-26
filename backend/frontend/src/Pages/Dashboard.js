@@ -225,8 +225,8 @@ function Dashboard() {
               </Row>
             </Tab>
 
-            {/* TENDANCES GÉNÉRALES */}
-            <Tab eventKey="KPI" title="Tendances générales">
+            {/* OBSERVATIONS GÉNÉRALES */}
+            <Tab eventKey="KPI" title="Observations générales">
               {/* PREMIERE RANGÉE */}
               <Row className="py-3">
                 <Col>

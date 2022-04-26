@@ -31,25 +31,21 @@ function Header() {
         <Container>
           <Navbar.Brand href="/"> HarvestSchool 🎓</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse className="justify-content-end"></Navbar.Collapse>
-
-          {/* Logique conditionnelle en cas d'utilisateur connecté */}
-          {userInfo ? (
-            <NavDropdown
-              title={"Bonjour" + " " + userInfo.username}
-              id="username"
-            >
-              <NavDropdown.Item onClick={logoutHandler}>
-                <i class="fas fa-sign-out-alt"></i> Se déconnecter
-              </NavDropdown.Item>
-            </NavDropdown>
-          ) : (
-            <LinkContainer to="/">
-              <Nav.Link eventKey={2}>
-                {/* <i class="fas fa-user "> </i> Se connecter */}
-              </Nav.Link>
-            </LinkContainer>
-          )}
+          <Navbar.Collapse className="justify-content-end">
+            {/* Logique conditionnelle en cas d'utilisateur connecté */}
+            {userInfo ? (
+              <NavDropdown
+                title={"Bonjour" + " " + userInfo.username}
+                id="username"
+              >
+                <NavDropdown.Item onClick={logoutHandler}>
+                  <i class="fas fa-sign-out-alt"></i> Se déconnecter
+                </NavDropdown.Item>
+              </NavDropdown>
+            ) : (
+              <p></p>
+            )}
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </Container>
